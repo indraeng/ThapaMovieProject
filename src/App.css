@@ -36,3 +36,115 @@
     transform: rotate(360deg);
   }
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  margin: 20px;
+  padding: 10px;
+  width: 240px;
+  height: 300px;
+  background-color: rgb(246, 235, 222);
+  border-radius: 3px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.card:hover {
+  background-color: #c1c4ca;
+  transform: scale(1.03);
+  transition: 0.5s;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.poster_img {
+  width: 150px;
+  height: 200px;
+  border-radius: 8px;
+}
+.title {
+  margin-bottom: 7px;
+  text-align: center;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+.search-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.form {
+  margin-top: 20px;
+}
+.inp {
+  width: 250px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+p {
+  padding-left: 65px;
+  color: red;
+}
+.single_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9dce3;
+  border: 1px solid black;
+  margin: 120px auto;
+  padding: 25px 0px;
+  width: 650px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 5px;
+}
+
+.single-movie-poster {
+  height: 250px;
+  width: auto;
+}
+.movie-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.movie-info p {
+  color: black;
+}
+.movie-info .title{
+  font-size: large;
+  font-weight: 500;
+}
+.loading{
+  text-align: center;
+  margin: 300px 0;
+  font-size: 25px;
+
+}
+.back-btn{
+  margin-left: 68px;
+  margin-top: 15px;
+  color: white;
+  background-color: #68696b;
+  padding: 5px;
+  border-radius: 5px;
+}
